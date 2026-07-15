@@ -3,6 +3,19 @@
 A small Python tool that crawls a website with a real browser, records
 concrete QA problems as it goes, and produces a readable report.
 
+## Example output
+
+A real run against [books.toscrape.com](https://books.toscrape.com)
+(10 pages) surfaced 11 genuine issues — 10 mixed-content console errors
+(the site loads jQuery over `http` on an `https` page) and 1 slow page —
+with **zero false positives**.
+
+![Sample page screenshot](examples/books-homepage.png)
+
+- Full sample report: [`examples/sample-report.md`](examples/sample-report.md)
+- Raw findings: [`examples/sample-findings.json`](examples/sample-findings.json)
+- More screenshots: [`examples/`](examples/)
+
 ## What it checks, on every page it visits
 
 - JavaScript console errors and uncaught exceptions
