@@ -10,7 +10,8 @@ A real run against [books.toscrape.com](https://books.toscrape.com)
 (the site loads jQuery over `http` on an `https` page) and 1 slow page —
 with **zero false positives**.
 
-[![QA Audit Agent running in VS Code, showing the generated report](examples/demo-in-action.png)](examples/sample-report.md)
+<img width="1280" height="832" alt="Screenshot 2026-07-15 at 7 41 57 PM" src="https://github.com/user-attachments/assets/cb850814-95a9-42e3-8753-3c9e9d60cd67" />
+(examples/demo-in-action.png)](examples/sample-report.md)
 
 > ▶️ **[View the full demo report](examples/sample-report.md)** — click the screenshot above or the link.
 
